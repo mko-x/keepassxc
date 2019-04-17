@@ -1,0 +1,5 @@
+version: "1"
+rules:                      # Array of rules
+  - base: develop            # Required. Target branch
+    upstream: keepassxreboot:master    # Required. Must be in the same fork network.
+    mergeMethod: hardreset  # Optional, one of [none, merge, squash, rebase, hardreset], Default: none.
